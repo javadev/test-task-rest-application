@@ -46,4 +46,9 @@ public class RestApplicationTests {
 				+ " string=Go back rocket man into the sky you'll see, longestWord=6,"
 				+ " string=Hear it all the time, come back rewind, longestWord=6]");
 	}
+
+    @Test
+    public void main() {
+        RestApplication.main(new String[] {""});
+    }
 }
